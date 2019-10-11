@@ -230,7 +230,6 @@ int main(void) {
                 /* Remote wakeup */
                 if (suspend_wakeup_condition()) {
                     usbWakeupHost(&USB_DRIVER);
-                    wait_ms(5000);
                 }
             }
             /* Woken up */
